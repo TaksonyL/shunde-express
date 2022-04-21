@@ -128,8 +128,8 @@ QueryStateResult|base64Binary|--|返回信息|
 >
 > 属性|类型|示例|说明
 > :--:|:--:|:--:|:--:
-> boxMsg|--|--|未知
-> boxStatus|int|1|返回1可用
+> boxMsg|--|--|提示信息
+> boxStatus|int|1|返回1可用，返回4时表示卡号不在此格子，5请到其他区域存放，6余额不足，7该腕带无效
 
 </br>
 </br>
